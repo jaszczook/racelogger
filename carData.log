@@ -1,0 +1,600 @@
+2019-04-23 17:12:19.776  INFO 20936 --- [main] com.jaszczook.sri3.Sri3Application       : Starting Sri3Application on DESKTOP-F7P98LE with PID 20936 (started by Kuba in F:\Studia\m\Semestr 2\SRI\03\racelogger)
+2019-04-23 17:12:19.782  INFO 20936 --- [main] com.jaszczook.sri3.Sri3Application       : No active profile set, falling back to default profiles: default
+2019-04-23 17:12:20.708  INFO 20936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-04-23 17:12:20.726  INFO 20936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 17:12:20.726  INFO 20936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 17:12:20.736  INFO 20936 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\app\Oracle\product\12.1.0\dbhome_1\bin;F:\app\Kuba\product\12.1.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\MATLAB\runtime\win64;F:\MATLAB\bin;F:\MATLAB\polyspace\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;F:\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\nodejs\;F:\apache-maven-3.5.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_112\bin;F:\Putty\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Kuba\scoop\shims;C:\Users\Kuba\AppData\Local\Microsoft\WindowsApps;C:\Users\Kuba\AppData\Roaming\npm;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;.]
+2019-04-23 17:12:20.814  INFO 20936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 17:12:20.814  INFO 20936 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 984 ms
+2019-04-23 17:12:21.022  INFO 20936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 17:12:21.151  INFO 20936 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-04-23 17:12:21.418  INFO 20936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-04-23 17:12:21.421  INFO 20936 --- [main] com.jaszczook.sri3.Sri3Application       : Started Sri3Application in 1.936 seconds (JVM running for 2.506)
+2019-04-23 17:12:23.376  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 101,59 C
+	Tires Temperature = 195,52 C
+	FuelLevel = 37,61 lit.
+}
+2019-04-23 17:12:26.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 123,80 C
+	Tires Temperature = 60,65 C
+	FuelLevel = 53,11 lit.
+}
+2019-04-23 17:12:29.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 100,14 C
+	Tires Temperature = 139,39 C
+	FuelLevel = 93,57 lit.
+}
+2019-04-23 17:12:32.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 121,43 C
+	Tires Temperature = 193,37 C
+	FuelLevel = 34,03 lit.
+}
+2019-04-23 17:12:35.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 133,72 C
+	Tires Temperature = 85,71 C
+	FuelLevel = 48,22 lit.
+}
+2019-04-23 17:12:38.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 146,23 C
+	Tires Temperature = 113,77 C
+	FuelLevel = 28,96 lit.
+}
+2019-04-23 17:12:41.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 120,56 C
+	Tires Temperature = 151,72 C
+	FuelLevel = 49,08 lit.
+}
+2019-04-23 17:12:44.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 105,38 C
+	Tires Temperature = 132,29 C
+	FuelLevel = 84,44 lit.
+}
+2019-04-23 17:12:47.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 96,81 C
+	Tires Temperature = 53,98 C
+	FuelLevel = 79,86 lit.
+}
+2019-04-23 17:12:50.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 140,12 C
+	Tires Temperature = 181,81 C
+	FuelLevel = 34,26 lit.
+}
+2019-04-23 17:12:53.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 125,14 C
+	Tires Temperature = 96,78 C
+	FuelLevel = 63,03 lit.
+}
+2019-04-23 17:12:56.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 141,13 C
+	Tires Temperature = 74,04 C
+	FuelLevel = 29,03 lit.
+}
+2019-04-23 17:12:59.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 103,44 C
+	Tires Temperature = 87,69 C
+	FuelLevel = 83,75 lit.
+}
+2019-04-23 17:13:02.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 134,10 C
+	Tires Temperature = 117,86 C
+	FuelLevel = 69,24 lit.
+}
+2019-04-23 17:13:05.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 125,79 C
+	Tires Temperature = 43,06 C
+	FuelLevel = 26,55 lit.
+}
+2019-04-23 17:13:08.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 101,23 C
+	Tires Temperature = 156,83 C
+	FuelLevel = 37,64 lit.
+}
+2019-04-23 17:13:11.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 125,89 C
+	Tires Temperature = 133,59 C
+	FuelLevel = 79,19 lit.
+}
+2019-04-23 17:13:14.280  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 107,94 C
+	Tires Temperature = 75,05 C
+	FuelLevel = 85,06 lit.
+}
+2019-04-23 17:13:17.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 148,11 C
+	Tires Temperature = 193,04 C
+	FuelLevel = 85,91 lit.
+}
+2019-04-23 17:13:20.281  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 94,12 C
+	Tires Temperature = 159,63 C
+	FuelLevel = 55,26 lit.
+}
+2019-04-23 17:13:23.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 148,94 C
+	Tires Temperature = 96,36 C
+	FuelLevel = 52,15 lit.
+}
+2019-04-23 17:13:26.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 120,42 C
+	Tires Temperature = 88,94 C
+	FuelLevel = 36,67 lit.
+}
+2019-04-23 17:13:29.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 96,75 C
+	Tires Temperature = 142,29 C
+	FuelLevel = 23,42 lit.
+}
+2019-04-23 17:13:32.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 125,17 C
+	Tires Temperature = 161,87 C
+	FuelLevel = 69,31 lit.
+}
+2019-04-23 17:13:35.281  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 136,19 C
+	Tires Temperature = 90,72 C
+	FuelLevel = 97,74 lit.
+}
+2019-04-23 17:13:38.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 136,24 C
+	Tires Temperature = 124,06 C
+	FuelLevel = 98,93 lit.
+}
+2019-04-23 17:13:41.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 131,77 C
+	Tires Temperature = 175,08 C
+	FuelLevel = 80,12 lit.
+}
+2019-04-23 17:13:44.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 92,62 C
+	Tires Temperature = 180,53 C
+	FuelLevel = 33,15 lit.
+}
+2019-04-23 17:13:47.281  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 148,37 C
+	Tires Temperature = 172,65 C
+	FuelLevel = 91,46 lit.
+}
+2019-04-23 17:13:50.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 149,00 C
+	Tires Temperature = 75,34 C
+	FuelLevel = 87,11 lit.
+}
+2019-04-23 17:13:53.280  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 132,83 C
+	Tires Temperature = 73,11 C
+	FuelLevel = 86,85 lit.
+}
+2019-04-23 17:13:56.280  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 146,36 C
+	Tires Temperature = 40,49 C
+	FuelLevel = 53,62 lit.
+}
+2019-04-23 17:13:59.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 115,40 C
+	Tires Temperature = 110,68 C
+	FuelLevel = 69,75 lit.
+}
+2019-04-23 17:14:02.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 93,78 C
+	Tires Temperature = 108,71 C
+	FuelLevel = 93,21 lit.
+}
+2019-04-23 17:14:05.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 111,93 C
+	Tires Temperature = 176,16 C
+	FuelLevel = 20,09 lit.
+}
+2019-04-23 17:14:08.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 111,75 C
+	Tires Temperature = 54,77 C
+	FuelLevel = 23,97 lit.
+}
+2019-04-23 17:14:11.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 123,05 C
+	Tires Temperature = 187,99 C
+	FuelLevel = 83,58 lit.
+}
+2019-04-23 17:14:14.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 90,55 C
+	Tires Temperature = 154,28 C
+	FuelLevel = 66,65 lit.
+}
+2019-04-23 17:14:17.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 124,42 C
+	Tires Temperature = 111,44 C
+	FuelLevel = 35,53 lit.
+}
+2019-04-23 17:14:20.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 115,73 C
+	Tires Temperature = 188,42 C
+	FuelLevel = 45,51 lit.
+}
+2019-04-23 17:14:23.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 109,51 C
+	Tires Temperature = 191,69 C
+	FuelLevel = 39,50 lit.
+}
+2019-04-23 17:14:26.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 136,83 C
+	Tires Temperature = 49,32 C
+	FuelLevel = 53,57 lit.
+}
+2019-04-23 17:14:29.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 143,16 C
+	Tires Temperature = 140,86 C
+	FuelLevel = 57,16 lit.
+}
+2019-04-23 17:14:32.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 148,10 C
+	Tires Temperature = 170,68 C
+	FuelLevel = 89,37 lit.
+}
+2019-04-23 17:14:35.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 137,31 C
+	Tires Temperature = 45,27 C
+	FuelLevel = 40,82 lit.
+}
+2019-04-23 17:14:38.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 117,12 C
+	Tires Temperature = 127,17 C
+	FuelLevel = 20,89 lit.
+}
+2019-04-23 17:14:41.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 120,96 C
+	Tires Temperature = 63,27 C
+	FuelLevel = 31,27 lit.
+}
+2019-04-23 17:14:44.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 127,36 C
+	Tires Temperature = 146,68 C
+	FuelLevel = 46,74 lit.
+}
+2019-04-23 17:14:47.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 92,27 C
+	Tires Temperature = 55,84 C
+	FuelLevel = 67,27 lit.
+}
+2019-04-23 17:14:50.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 95,44 C
+	Tires Temperature = 122,16 C
+	FuelLevel = 72,04 lit.
+}
+2019-04-23 17:14:53.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 112,90 C
+	Tires Temperature = 91,20 C
+	FuelLevel = 74,51 lit.
+}
+2019-04-23 17:14:56.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 137,29 C
+	Tires Temperature = 41,33 C
+	FuelLevel = 79,28 lit.
+}
+2019-04-23 17:14:59.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 122,07 C
+	Tires Temperature = 197,70 C
+	FuelLevel = 84,66 lit.
+}
+2019-04-23 17:15:02.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 127,12 C
+	Tires Temperature = 109,52 C
+	FuelLevel = 88,20 lit.
+}
+2019-04-23 17:15:05.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 101,67 C
+	Tires Temperature = 139,51 C
+	FuelLevel = 71,89 lit.
+}
+2019-04-23 17:15:08.281  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 117,88 C
+	Tires Temperature = 164,43 C
+	FuelLevel = 93,20 lit.
+}
+2019-04-23 17:15:11.280  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 104,60 C
+	Tires Temperature = 158,86 C
+	FuelLevel = 96,82 lit.
+}
+2019-04-23 17:15:14.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 126,31 C
+	Tires Temperature = 183,07 C
+	FuelLevel = 84,56 lit.
+}
+2019-04-23 17:15:17.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 146,46 C
+	Tires Temperature = 195,76 C
+	FuelLevel = 95,10 lit.
+}
+2019-04-23 17:15:20.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 92,75 C
+	Tires Temperature = 197,47 C
+	FuelLevel = 58,84 lit.
+}
+2019-04-23 17:15:23.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 108,67 C
+	Tires Temperature = 77,55 C
+	FuelLevel = 80,26 lit.
+}
+2019-04-23 17:15:26.280  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 116,87 C
+	Tires Temperature = 172,54 C
+	FuelLevel = 53,13 lit.
+}
+2019-04-23 17:15:29.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 119,22 C
+	Tires Temperature = 89,94 C
+	FuelLevel = 73,74 lit.
+}
+2019-04-23 17:15:32.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 113,64 C
+	Tires Temperature = 168,88 C
+	FuelLevel = 24,36 lit.
+}
+2019-04-23 17:15:35.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 138,08 C
+	Tires Temperature = 150,65 C
+	FuelLevel = 97,75 lit.
+}
+2019-04-23 17:15:38.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 135,55 C
+	Tires Temperature = 116,16 C
+	FuelLevel = 54,17 lit.
+}
+2019-04-23 17:15:41.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 120,46 C
+	Tires Temperature = 123,84 C
+	FuelLevel = 20,93 lit.
+}
+2019-04-23 17:15:44.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 102,31 C
+	Tires Temperature = 66,09 C
+	FuelLevel = 25,61 lit.
+}
+2019-04-23 17:15:47.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 114,14 C
+	Tires Temperature = 86,38 C
+	FuelLevel = 50,10 lit.
+}
+2019-04-23 17:15:50.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 149,12 C
+	Tires Temperature = 113,11 C
+	FuelLevel = 55,70 lit.
+}
+2019-04-23 17:15:53.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 121,18 C
+	Tires Temperature = 97,93 C
+	FuelLevel = 72,42 lit.
+}
+2019-04-23 17:15:56.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 129,91 C
+	Tires Temperature = 109,05 C
+	FuelLevel = 75,86 lit.
+}
+2019-04-23 17:15:59.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 91,10 C
+	Tires Temperature = 138,37 C
+	FuelLevel = 96,29 lit.
+}
+2019-04-23 17:16:02.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 109,45 C
+	Tires Temperature = 184,32 C
+	FuelLevel = 25,48 lit.
+}
+2019-04-23 17:16:05.281  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 117,45 C
+	Tires Temperature = 86,32 C
+	FuelLevel = 82,23 lit.
+}
+2019-04-23 17:16:08.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 134,91 C
+	Tires Temperature = 141,19 C
+	FuelLevel = 67,72 lit.
+}
+2019-04-23 17:16:11.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 134,29 C
+	Tires Temperature = 198,93 C
+	FuelLevel = 30,20 lit.
+}
+2019-04-23 17:16:14.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 144,44 C
+	Tires Temperature = 149,07 C
+	FuelLevel = 52,72 lit.
+}
+2019-04-23 17:16:17.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 149,58 C
+	Tires Temperature = 97,99 C
+	FuelLevel = 90,02 lit.
+}
+2019-04-23 17:16:20.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 101,69 C
+	Tires Temperature = 80,40 C
+	FuelLevel = 96,01 lit.
+}
+2019-04-23 17:16:23.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 141,70 C
+	Tires Temperature = 63,96 C
+	FuelLevel = 47,85 lit.
+}
+2019-04-23 17:16:26.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 146,60 C
+	Tires Temperature = 118,53 C
+	FuelLevel = 56,69 lit.
+}
+2019-04-23 17:16:29.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 129,12 C
+	Tires Temperature = 85,27 C
+	FuelLevel = 34,93 lit.
+}
+2019-04-23 17:16:32.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 104,10 C
+	Tires Temperature = 153,87 C
+	FuelLevel = 54,07 lit.
+}
+2019-04-23 17:16:35.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 115,94 C
+	Tires Temperature = 112,37 C
+	FuelLevel = 52,39 lit.
+}
+2019-04-23 17:16:38.284  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 95,98 C
+	Tires Temperature = 176,73 C
+	FuelLevel = 46,89 lit.
+}
+2019-04-23 17:16:41.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 133,50 C
+	Tires Temperature = 137,90 C
+	FuelLevel = 37,35 lit.
+}
+2019-04-23 17:16:44.281  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 120,51 C
+	Tires Temperature = 117,05 C
+	FuelLevel = 87,41 lit.
+}
+2019-04-23 17:16:47.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 95,85 C
+	Tires Temperature = 68,09 C
+	FuelLevel = 84,78 lit.
+}
+2019-04-23 17:16:50.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 139,35 C
+	Tires Temperature = 42,78 C
+	FuelLevel = 54,84 lit.
+}
+2019-04-23 17:16:53.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 90,78 C
+	Tires Temperature = 174,10 C
+	FuelLevel = 44,78 lit.
+}
+2019-04-23 17:16:56.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 110,48 C
+	Tires Temperature = 188,49 C
+	FuelLevel = 47,47 lit.
+}
+2019-04-23 17:16:59.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 94,65 C
+	Tires Temperature = 152,75 C
+	FuelLevel = 76,00 lit.
+}
+2019-04-23 17:17:02.282  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 123,60 C
+	Tires Temperature = 67,51 C
+	FuelLevel = 79,69 lit.
+}
+2019-04-23 17:17:05.281  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 124,77 C
+	Tires Temperature = 127,31 C
+	FuelLevel = 39,68 lit.
+}
+2019-04-23 17:17:08.285  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 126,65 C
+	Tires Temperature = 58,60 C
+	FuelLevel = 74,36 lit.
+}
+2019-04-23 17:17:11.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 124,88 C
+	Tires Temperature = 112,23 C
+	FuelLevel = 92,90 lit.
+}
+2019-04-23 17:17:14.283  INFO 20936 --- [DefaultMessageListenerContainer-1] c.j.sri3.racelogger.RaceLoggerReceiver   : received car data = 
+CarData {
+	Oil Temperature = 148,09 C
+	Tires Temperature = 131,53 C
+	FuelLevel = 40,34 lit.
+}
